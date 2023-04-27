@@ -1,0 +1,45 @@
+{
+  "name": "cdk-ghost-string-parameter",
+  "version": "0.1.0",
+  "description": "String parameter ins Parameter Store on AWS Systems Manager",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/index.js",
+    "dist/index.js.map",
+    "dist/index.d.ts"
+  ],
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs && api-extractor run --local",
+    "build:doc": "npm run build && api-documenter markdown --input-folder temp --output-folder api-docs/markdown",
+    "type-check": "tsc --noEmit",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cdk",
+    "AWS",
+    "SystemsManager",
+    "ParameterStore"
+  ],
+  "author": "Kikuo Emoto <kemoto@codemonger.io>",
+  "license": "MIT",
+  "engines": {
+    "note": ">=12.0.0"
+  },
+  "peerDependencies": {
+    "aws-cdk-lib": "^2.0",
+    "constructs": "^10.0"
+  },
+  "devDependencies": {
+    "@microsoft/api-documenter": "^7.22.0",
+    "@microsoft/api-extractor": "^7.34.4",
+    "@rollup/plugin-typescript": "^11.1.0",
+    "@types/node": "^18.16.1",
+    "aws-cdk-lib": "^2.77.0",
+    "constructs": "^10.2.8",
+    "rollup": "^3.21.0",
+    "tslib": "^2.5.0",
+    "typescript": "^4.8.4"
+  }
+}

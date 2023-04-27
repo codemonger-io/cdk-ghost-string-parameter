@@ -1,0 +1,10 @@
+# note artifacts
+/node_modules
+
+# build artifacts
+/dist
+/temp
+
+# editor artifacts
+*~
+*.swp
