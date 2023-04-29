@@ -33,7 +33,7 @@ class SampleConstruct extends Construct {
         });
     }
 
-    grantReadParameter(grantee: iam.IGrantable): iam.IGrant {
+    grantReadParameter(grantee: iam.IGrantable): iam.Grant {
         return this.parameter.grantRead(grantee);
     }
 }
