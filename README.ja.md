@@ -9,7 +9,7 @@
 ## インストール
 
 ```sh
-npm install https://github.com/codemonger-io/cdk-ghost-string-parameter.git#v0.1.0
+npm install https://github.com/codemonger-io/cdk-ghost-string-parameter.git#v0.1.1
 ```
 
 ## サンプル

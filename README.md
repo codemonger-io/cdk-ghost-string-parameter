@@ -9,7 +9,7 @@ This library is supposed to be combined with the [AWS Cloud Development Kit (CDK
 ## Installation
 
 ```sh
-npm install https://github.com/codemonger-io/cdk-ghost-string-parameter.git#v0.1.0
+npm install https://github.com/codemonger-io/cdk-ghost-string-parameter.git#v0.1.1
 ```
 
 ## Example
