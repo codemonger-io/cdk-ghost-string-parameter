@@ -2,7 +2,7 @@ import { Stack, aws_iam as iam } from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 
 /**
- * Properties given to the constructor of {@link GhostStringParammeter}.
+ * Properties given to the constructor of {@link GhostStringParameter}.
  *
  * @beta
  */
