@@ -4,7 +4,7 @@
 
 ## cdk-ghost-string-parameter package
 
-Provide access control of parameters in Parameter Store on AWS Systems Manager.
+Provides access control over parameters in Parameter Store on AWS Systems Manager.
 
 ## Classes
 
@@ -16,5 +16,5 @@ Provide access control of parameters in Parameter Store on AWS Systems Manager.
 
 |  Interface | Description |
 |  --- | --- |
-|  [GhostStringParameterProps](./cdk-ghost-string-parameter.ghoststringparameterprops.md) | **_(BETA)_** Properties given to the constructor of <code>GhostStringParammeter</code>. |
+|  [GhostStringParameterProps](./cdk-ghost-string-parameter.ghoststringparameterprops.md) | **_(BETA)_** Properties given to the constructor of [GhostStringParameter](./cdk-ghost-string-parameter.ghoststringparameter.md)<!-- -->. |
 

@@ -4,10 +4,10 @@
 
 ## GhostStringParameterProps interface
 
-> This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
+> This API is provided as a beta preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
 > 
 
-Properties given to the constructor of `GhostStringParammeter`<!-- -->.
+Properties given to the constructor of [GhostStringParameter](./cdk-ghost-string-parameter.ghoststringparameter.md)<!-- -->.
 
 **Signature:**
 

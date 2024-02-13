@@ -8,5 +8,5 @@
 
 |  Package | Description |
 |  --- | --- |
-|  [cdk-ghost-string-parameter](./cdk-ghost-string-parameter.md) | Provide access control of parameters in Parameter Store on AWS Systems Manager. |
+|  [cdk-ghost-string-parameter](./cdk-ghost-string-parameter.md) | Provides access control over parameters in Parameter Store on AWS Systems Manager. |
 

@@ -4,7 +4,7 @@
 
 ## GhostStringParameter class
 
-> This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
+> This API is provided as a beta preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
 > 
 
 String parameter stored in Parameter Store on AWS Systems Manager.
@@ -17,9 +17,9 @@ export declare class GhostStringParameter
 
 ## Remarks
 
-The main goal of this class is to configure the permission to access a parameter in Parameter Store on AWS Systems Manager.
+The main goal of this class is to provide access control over a parameter in Parameter Store on AWS Systems Manager.
 
-To grant access to parameters stored in Parameter Store on AWS Systems Manager, the simplest way is to use CDK's [StringParameter](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_ssm.StringParameter.html)<!-- -->. However, to instantiate a `StringParameter`<!-- -->, you have to provision it beforehand in the CDK stack or bind it to an already existing one; you cannot bind a `StringParameter` to a parameter supposed to exist afterwards.
+To grant access to parameters stored in Parameter Store on AWS Systems Manager, the simplest way is to use CDK's [StringParameter](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_ssm.StringParameter.html)<!-- -->. However, to instantiate a `StringParameter`<!-- -->, you have to provision it in the CDK stack or bind it to an already existing one; you cannot bind a `StringParameter` to a parameter supposed to exist afterwards.
 
 You can bind this class to a parameter that does not exist in Parameter Store on AWS Systems Manager without provisioning it.
 
@@ -42,5 +42,5 @@ Note that this class is not a `Construct`<!-- -->.
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
-|  [grantRead(grantee)](./cdk-ghost-string-parameter.ghoststringparameter.grantread.md) |  | **_(BETA)_** Allows read access. |
+|  [grantRead(grantee)](./cdk-ghost-string-parameter.ghoststringparameter.grantread.md) |  | **_(BETA)_** Allows a given principal to read this parameter. |
 
