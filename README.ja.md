@@ -9,7 +9,7 @@
 ## インストール
 
 ```sh
-npm install https://github.com/codemonger-io/cdk-ghost-string-parameter.git#v0.1.1
+npm install https://github.com/codemonger-io/cdk-ghost-string-parameter.git#v0.2.0
 ```
 
 ## サンプル
@@ -18,7 +18,7 @@ npm install https://github.com/codemonger-io/cdk-ghost-string-parameter.git#v0.1
 以下は使用例です。
 
 ```ts
-import { GhostStringParameter } from 'cdk-ghost-string-parameter';
+import { GhostStringParameter } from '@codemonger-io/cdk-ghost-string-parameter';
 import { aws_iam as iam } from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 
@@ -59,17 +59,17 @@ CDKスタックをデプロイした後にパラメータを作成したい場�
 ### 依存関係の解決
 
 ```sh
-npm ci
+pnpm install --frozen-lockfile
 ```
 
 ### ビルド
 
 ```sh
-npm run build
+pnpm build
 ```
 
 ### APIドキュメントの生成
 
 ```sh
-npm run build:doc
+pnpm build:doc
 ```
