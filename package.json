@@ -1,7 +1,7 @@
 {
-  "name": "cdk-ghost-string-parameter",
-  "version": "0.1.1",
-  "description": "String parameter ins Parameter Store on AWS Systems Manager",
+  "name": "@codemonger-io/cdk-ghost-string-parameter",
+  "version": "0.2.0",
+  "description": "String parameter in Parameter Store on AWS Systems Manager",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
