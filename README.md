@@ -9,7 +9,7 @@ This library is supposed to be combined with the [AWS Cloud Development Kit (CDK
 ## Installation
 
 ```sh
-npm install https://github.com/codemonger-io/cdk-ghost-string-parameter.git#v0.1.1
+npm install https://github.com/codemonger-io/cdk-ghost-string-parameter.git#v0.2.0
 ```
 
 ## Example
@@ -18,7 +18,7 @@ The only class this library provides is [`GhostStringParameter`](./api-docs/mark
 Here is an example to use it:
 
 ```ts
-import { GhostStringParameter } from 'cdk-ghost-string-parameter';
+import { GhostStringParameter } from '@codemonger-io/cdk-ghost-string-parameter';
 import { aws_iam as iam } from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 
@@ -59,17 +59,17 @@ If you want to control access to a parameter that does not exist at deployment w
 ### Resolving dependencies
 
 ```sh
-npm ci
+pnpm install --frozen-lockfile
 ```
 
 ### Building
 
 ```sh
-npm run build
+pnpm build
 ```
 
 ### Generating the API documentation
 
 ```sh
-npm run build:doc
+pnpm build:doc
 ```
