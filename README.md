@@ -9,13 +9,13 @@ This library is supposed to be combined with the [AWS Cloud Development Kit (CDK
 ## Installation
 
 ```sh
-npm install https://github.com/codemonger-io/cdk-ghost-string-parameter.git#v0.2.0
+npm install https://github.com/codemonger-io/cdk-ghost-string-parameter.git#v0.2.1
 ```
 
 ### Installing from GitHub Packages
 
 Every time commits are pushed to the `main` branch, a _developer package_ is published to the npm registry managed by GitHub Packages.
-A _developer package_ bears the next release number but followed by a dash (`-`) plus the short commit hash; e.g., `0.2.0-abc1234` where `abc1234` is the short commit hash of the commit used to build the package (_snapshot_).
+A _developer package_ bears the next release number but followed by a dash (`-`) plus the short commit hash; e.g., `0.2.1-abc1234` where `abc1234` is the short commit hash of the commit used to build the package (_snapshot_).
 You can find _developer packages_ [here](https://github.com/codemonger-io/cdk-ghost-string-parameter/pkgs/npm/cdk-ghost-string-parameter).
 
 #### Configuring a GitHub personal access token
@@ -41,7 +41,7 @@ In the root directory of your project, create another `.npmrc` file with the fol
 Then you can install a _developer package_ with the following command:
 
 ```sh
-npm install @codemonger-io/cdk-ghost-string-parameter@0.2.0-abc1234
+npm install @codemonger-io/cdk-ghost-string-parameter@0.2.1-abc1234
 ```
 
 Please replace `abc1234` with the short commit hash of the _snapshot_ you want to install.
